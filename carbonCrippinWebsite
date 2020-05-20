@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<!-- reference the completed Freelance Drone Template for the flex grid-->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>CC Productions</title>
+  </head>
+  <body>
+    <header>
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Videography</a></li>
+            <li><a href="#">Photography</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+    </header>
+    <main>
+      <div class="hero">
+        <h1>Carbon Productions</h1>
+        <h3>Videography & Photography</h3>
+        <p></p>
+        <button type="button" name="button">Watch Video</button>
+        <button type="button" name="button">Explore More</button>
+        <!-- tranisition into a Infinite scroll from a full page-->
+      </div>
+      <section class="Videography">
+        <h3><a href="videography.html"Videography</h3>
+        <!-- insert 3x3 grid no border -->
+          <div class="vidColumn">
+            <video src="videofile.ogg" autoplay poster="posterimage.jpg">
+
+            </video>
+
+          </div>
+          <div class="vidColumn">
+            <video src="videofile.ogg" autoplay poster="posterimage.jpg">
+
+            </video>
+
+          </div>
+          <div class="vidColumn">
+            <video src="videofile.ogg" autoplay poster="posterimage.jpg">
+
+            </video>
+
+          </div>
+      </section>
+      <section class="Photography">
+        <h3><a href="Photography.html"Photography</h3>
+        <!-- insert 3x3 grid no border -->
+          <div class="picColumn">
+            <a href="#"></a>
+            <img src="" alt="">
+
+          </div>
+          <div class="picColumn">
+            <a href="#"></a>
+            <img src="" alt="">
+
+          </div>
+          <div class="picColumn">
+            <a href="#"></a>
+            <img src="" alt="">
+
+          </div>
+
+      </section>
+      <section class="Contact">
+        <h3>Contact Us</h3>
+        <!-- Insert email submission box
+
+      -->
+        <p>Email:
+          <br>
+          Phone:
+
+
+
+
+
+      </p>
+
+      </section>
+
+    </main>
+  </body>
+</html>
